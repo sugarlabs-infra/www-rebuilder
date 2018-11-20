@@ -1,0 +1,8 @@
+volumes:
+  - /srv/www-out:/clone/_site
+
+memory: 200m
+cpu: 100
+
+ports:
+   - 5303:5000
